@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04676CF72122F98B0000D3F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04676CF62122F98B0000D3F8 /* AppDelegate.m */; };
+		04676CFA2122F98B0000D3F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04676CF92122F98B0000D3F8 /* ViewController.m */; };
+		04676CFD2122F98B0000D3F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04676CFB2122F98B0000D3F8 /* Main.storyboard */; };
+		04676CFF2122F98D0000D3F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04676CFE2122F98D0000D3F8 /* Assets.xcassets */; };
+		04676D022122F98D0000D3F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04676D002122F98D0000D3F8 /* LaunchScreen.storyboard */; };
+		04676D052122F98D0000D3F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04676D042122F98D0000D3F8 /* main.m */; };
+		04676D0F2122F98D0000D3F8 /* KXTabBarTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04676D0E2122F98D0000D3F8 /* KXTabBarTestTests.m */; };
+		04676D1A2122F98D0000D3F8 /* KXTabBarTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04676D192122F98D0000D3F8 /* KXTabBarTestUITests.m */; };
+		04676D2E2122F9EA0000D3F8 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04676D292122F9EA0000D3F8 /* TabBarController.m */; };
+		04676D2F2122F9EA0000D3F8 /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04676D2A2122F9EA0000D3F8 /* TabBar.m */; };
+		04676D342122FB470000D3F8 /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04676D322122FB470000D3F8 /* LiveViewController.m */; };
+		04676D352122FB470000D3F8 /* LiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04676D332122FB470000D3F8 /* LiveViewController.xib */; };
+		04676D392122FB590000D3F8 /* FinderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04676D372122FB590000D3F8 /* FinderViewController.m */; };
+		04676D3A2122FB590000D3F8 /* FinderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04676D382122FB590000D3F8 /* FinderViewController.xib */; };
+		04676D3E2122FB6B0000D3F8 /* CreatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04676D3C2122FB6B0000D3F8 /* CreatViewController.m */; };
+		04676D3F2122FB6B0000D3F8 /* CreatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04676D3D2122FB6B0000D3F8 /* CreatViewController.xib */; };
+		04676D432122FB7A0000D3F8 /* MsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04676D412122FB7A0000D3F8 /* MsgViewController.m */; };
+		04676D442122FB7A0000D3F8 /* MsgViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04676D422122FB7A0000D3F8 /* MsgViewController.xib */; };
+		04676D482122FB860000D3F8 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04676D462122FB860000D3F8 /* MineViewController.m */; };
+		04676D492122FB860000D3F8 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04676D472122FB860000D3F8 /* MineViewController.xib */; };
+		04676D4C21230C4F0000D3F8 /* UIColor+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 04676D4B21230C4F0000D3F8 /* UIColor+Extra.m */; };
+		04676D4F2123B9DD0000D3F8 /* UIApplication+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 04676D4E2123B9DD0000D3F8 /* UIApplication+Extra.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04676D0B2122F98D0000D3F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04676CEA2122F98B0000D3F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04676CF12122F98B0000D3F8;
+			remoteInfo = KXTabBarTest;
+		};
+		04676D162122F98D0000D3F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04676CEA2122F98B0000D3F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04676CF12122F98B0000D3F8;
+			remoteInfo = KXTabBarTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04676CF22122F98B0000D3F8 /* KXTabBarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KXTabBarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04676CF52122F98B0000D3F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04676CF62122F98B0000D3F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04676CF82122F98B0000D3F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04676CF92122F98B0000D3F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04676CFC2122F98B0000D3F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04676CFE2122F98D0000D3F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04676D012122F98D0000D3F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04676D032122F98D0000D3F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04676D042122F98D0000D3F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04676D0A2122F98D0000D3F8 /* KXTabBarTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KXTabBarTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04676D0E2122F98D0000D3F8 /* KXTabBarTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KXTabBarTestTests.m; sourceTree = "<group>"; };
+		04676D102122F98D0000D3F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04676D152122F98D0000D3F8 /* KXTabBarTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KXTabBarTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04676D192122F98D0000D3F8 /* KXTabBarTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KXTabBarTestUITests.m; sourceTree = "<group>"; };
+		04676D1B2122F98D0000D3F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04676D292122F9EA0000D3F8 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		04676D2A2122F9EA0000D3F8 /* TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBar.m; sourceTree = "<group>"; };
+		04676D2B2122F9EA0000D3F8 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		04676D2D2122F9EA0000D3F8 /* TabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBar.h; sourceTree = "<group>"; };
+		04676D312122FB470000D3F8 /* LiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
+		04676D322122FB470000D3F8 /* LiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
+		04676D332122FB470000D3F8 /* LiveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiveViewController.xib; sourceTree = "<group>"; };
+		04676D362122FB590000D3F8 /* FinderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinderViewController.h; sourceTree = "<group>"; };
+		04676D372122FB590000D3F8 /* FinderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinderViewController.m; sourceTree = "<group>"; };
+		04676D382122FB590000D3F8 /* FinderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinderViewController.xib; sourceTree = "<group>"; };
+		04676D3B2122FB6B0000D3F8 /* CreatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreatViewController.h; sourceTree = "<group>"; };
+		04676D3C2122FB6B0000D3F8 /* CreatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreatViewController.m; sourceTree = "<group>"; };
+		04676D3D2122FB6B0000D3F8 /* CreatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreatViewController.xib; sourceTree = "<group>"; };
+		04676D402122FB7A0000D3F8 /* MsgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MsgViewController.h; sourceTree = "<group>"; };
+		04676D412122FB7A0000D3F8 /* MsgViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MsgViewController.m; sourceTree = "<group>"; };
+		04676D422122FB7A0000D3F8 /* MsgViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MsgViewController.xib; sourceTree = "<group>"; };
+		04676D452122FB860000D3F8 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		04676D462122FB860000D3F8 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		04676D472122FB860000D3F8 /* MineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		04676D4A21230C4F0000D3F8 /* UIColor+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extra.h"; sourceTree = "<group>"; };
+		04676D4B21230C4F0000D3F8 /* UIColor+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extra.m"; sourceTree = "<group>"; };
+		04676D4D2123B9DD0000D3F8 /* UIApplication+Extra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Extra.h"; sourceTree = "<group>"; };
+		04676D4E2123B9DD0000D3F8 /* UIApplication+Extra.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Extra.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04676CEF2122F98B0000D3F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04676D072122F98D0000D3F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04676D122122F98D0000D3F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04676CE92122F98B0000D3F8 = {
+			isa = PBXGroup;
+			children = (
+				04676CF42122F98B0000D3F8 /* KXTabBarTest */,
+				04676D0D2122F98D0000D3F8 /* KXTabBarTestTests */,
+				04676D182122F98D0000D3F8 /* KXTabBarTestUITests */,
+				04676CF32122F98B0000D3F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04676CF32122F98B0000D3F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04676CF22122F98B0000D3F8 /* KXTabBarTest.app */,
+				04676D0A2122F98D0000D3F8 /* KXTabBarTestTests.xctest */,
+				04676D152122F98D0000D3F8 /* KXTabBarTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04676CF42122F98B0000D3F8 /* KXTabBarTest */ = {
+			isa = PBXGroup;
+			children = (
+				04676D272122F9EA0000D3F8 /* TabBar */,
+				04676CF52122F98B0000D3F8 /* AppDelegate.h */,
+				04676CF62122F98B0000D3F8 /* AppDelegate.m */,
+				04676D312122FB470000D3F8 /* LiveViewController.h */,
+				04676D322122FB470000D3F8 /* LiveViewController.m */,
+				04676D332122FB470000D3F8 /* LiveViewController.xib */,
+				04676D362122FB590000D3F8 /* FinderViewController.h */,
+				04676D372122FB590000D3F8 /* FinderViewController.m */,
+				04676D382122FB590000D3F8 /* FinderViewController.xib */,
+				04676D3B2122FB6B0000D3F8 /* CreatViewController.h */,
+				04676D3C2122FB6B0000D3F8 /* CreatViewController.m */,
+				04676D3D2122FB6B0000D3F8 /* CreatViewController.xib */,
+				04676D402122FB7A0000D3F8 /* MsgViewController.h */,
+				04676D412122FB7A0000D3F8 /* MsgViewController.m */,
+				04676D422122FB7A0000D3F8 /* MsgViewController.xib */,
+				04676D452122FB860000D3F8 /* MineViewController.h */,
+				04676D462122FB860000D3F8 /* MineViewController.m */,
+				04676D472122FB860000D3F8 /* MineViewController.xib */,
+				04676CF82122F98B0000D3F8 /* ViewController.h */,
+				04676CF92122F98B0000D3F8 /* ViewController.m */,
+				04676CFB2122F98B0000D3F8 /* Main.storyboard */,
+				04676CFE2122F98D0000D3F8 /* Assets.xcassets */,
+				04676D002122F98D0000D3F8 /* LaunchScreen.storyboard */,
+				04676D032122F98D0000D3F8 /* Info.plist */,
+				04676D042122F98D0000D3F8 /* main.m */,
+			);
+			path = KXTabBarTest;
+			sourceTree = "<group>";
+		};
+		04676D0D2122F98D0000D3F8 /* KXTabBarTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				04676D0E2122F98D0000D3F8 /* KXTabBarTestTests.m */,
+				04676D102122F98D0000D3F8 /* Info.plist */,
+			);
+			path = KXTabBarTestTests;
+			sourceTree = "<group>";
+		};
+		04676D182122F98D0000D3F8 /* KXTabBarTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04676D192122F98D0000D3F8 /* KXTabBarTestUITests.m */,
+				04676D1B2122F98D0000D3F8 /* Info.plist */,
+			);
+			path = KXTabBarTestUITests;
+			sourceTree = "<group>";
+		};
+		04676D272122F9EA0000D3F8 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				04676D2D2122F9EA0000D3F8 /* TabBar.h */,
+				04676D2A2122F9EA0000D3F8 /* TabBar.m */,
+				04676D2B2122F9EA0000D3F8 /* TabBarController.h */,
+				04676D292122F9EA0000D3F8 /* TabBarController.m */,
+				04676D4A21230C4F0000D3F8 /* UIColor+Extra.h */,
+				04676D4B21230C4F0000D3F8 /* UIColor+Extra.m */,
+				04676D4D2123B9DD0000D3F8 /* UIApplication+Extra.h */,
+				04676D4E2123B9DD0000D3F8 /* UIApplication+Extra.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04676CF12122F98B0000D3F8 /* KXTabBarTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04676D1E2122F98D0000D3F8 /* Build configuration list for PBXNativeTarget "KXTabBarTest" */;
+			buildPhases = (
+				04676CEE2122F98B0000D3F8 /* Sources */,
+				04676CEF2122F98B0000D3F8 /* Frameworks */,
+				04676CF02122F98B0000D3F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KXTabBarTest;
+			productName = KXTabBarTest;
+			productReference = 04676CF22122F98B0000D3F8 /* KXTabBarTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04676D092122F98D0000D3F8 /* KXTabBarTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04676D212122F98D0000D3F8 /* Build configuration list for PBXNativeTarget "KXTabBarTestTests" */;
+			buildPhases = (
+				04676D062122F98D0000D3F8 /* Sources */,
+				04676D072122F98D0000D3F8 /* Frameworks */,
+				04676D082122F98D0000D3F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04676D0C2122F98D0000D3F8 /* PBXTargetDependency */,
+			);
+			name = KXTabBarTestTests;
+			productName = KXTabBarTestTests;
+			productReference = 04676D0A2122F98D0000D3F8 /* KXTabBarTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04676D142122F98D0000D3F8 /* KXTabBarTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04676D242122F98D0000D3F8 /* Build configuration list for PBXNativeTarget "KXTabBarTestUITests" */;
+			buildPhases = (
+				04676D112122F98D0000D3F8 /* Sources */,
+				04676D122122F98D0000D3F8 /* Frameworks */,
+				04676D132122F98D0000D3F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04676D172122F98D0000D3F8 /* PBXTargetDependency */,
+			);
+			name = KXTabBarTestUITests;
+			productName = KXTabBarTestUITests;
+			productReference = 04676D152122F98D0000D3F8 /* KXTabBarTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04676CEA2122F98B0000D3F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04676CF12122F98B0000D3F8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					04676D092122F98D0000D3F8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 04676CF12122F98B0000D3F8;
+					};
+					04676D142122F98D0000D3F8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 04676CF12122F98B0000D3F8;
+					};
+				};
+			};
+			buildConfigurationList = 04676CED2122F98B0000D3F8 /* Build configuration list for PBXProject "KXTabBarTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04676CE92122F98B0000D3F8;
+			productRefGroup = 04676CF32122F98B0000D3F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04676CF12122F98B0000D3F8 /* KXTabBarTest */,
+				04676D092122F98D0000D3F8 /* KXTabBarTestTests */,
+				04676D142122F98D0000D3F8 /* KXTabBarTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04676CF02122F98B0000D3F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04676D3A2122FB590000D3F8 /* FinderViewController.xib in Resources */,
+				04676D022122F98D0000D3F8 /* LaunchScreen.storyboard in Resources */,
+				04676D442122FB7A0000D3F8 /* MsgViewController.xib in Resources */,
+				04676CFF2122F98D0000D3F8 /* Assets.xcassets in Resources */,
+				04676D352122FB470000D3F8 /* LiveViewController.xib in Resources */,
+				04676D3F2122FB6B0000D3F8 /* CreatViewController.xib in Resources */,
+				04676CFD2122F98B0000D3F8 /* Main.storyboard in Resources */,
+				04676D492122FB860000D3F8 /* MineViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04676D082122F98D0000D3F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04676D132122F98D0000D3F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04676CEE2122F98B0000D3F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04676D392122FB590000D3F8 /* FinderViewController.m in Sources */,
+				04676D2F2122F9EA0000D3F8 /* TabBar.m in Sources */,
+				04676CFA2122F98B0000D3F8 /* ViewController.m in Sources */,
+				04676D2E2122F9EA0000D3F8 /* TabBarController.m in Sources */,
+				04676D4C21230C4F0000D3F8 /* UIColor+Extra.m in Sources */,
+				04676D4F2123B9DD0000D3F8 /* UIApplication+Extra.m in Sources */,
+				04676D482122FB860000D3F8 /* MineViewController.m in Sources */,
+				04676D052122F98D0000D3F8 /* main.m in Sources */,
+				04676CF72122F98B0000D3F8 /* AppDelegate.m in Sources */,
+				04676D3E2122FB6B0000D3F8 /* CreatViewController.m in Sources */,
+				04676D432122FB7A0000D3F8 /* MsgViewController.m in Sources */,
+				04676D342122FB470000D3F8 /* LiveViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04676D062122F98D0000D3F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04676D0F2122F98D0000D3F8 /* KXTabBarTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04676D112122F98D0000D3F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04676D1A2122F98D0000D3F8 /* KXTabBarTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04676D0C2122F98D0000D3F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04676CF12122F98B0000D3F8 /* KXTabBarTest */;
+			targetProxy = 04676D0B2122F98D0000D3F8 /* PBXContainerItemProxy */;
+		};
+		04676D172122F98D0000D3F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04676CF12122F98B0000D3F8 /* KXTabBarTest */;
+			targetProxy = 04676D162122F98D0000D3F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04676CFB2122F98B0000D3F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04676CFC2122F98B0000D3F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04676D002122F98D0000D3F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04676D012122F98D0000D3F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04676D1C2122F98D0000D3F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04676D1D2122F98D0000D3F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04676D1F2122F98D0000D3F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KXTabBarTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jj.KXTabBarTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04676D202122F98D0000D3F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KXTabBarTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jj.KXTabBarTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04676D222122F98D0000D3F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KXTabBarTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jj.KXTabBarTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KXTabBarTest.app/KXTabBarTest";
+			};
+			name = Debug;
+		};
+		04676D232122F98D0000D3F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KXTabBarTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jj.KXTabBarTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KXTabBarTest.app/KXTabBarTest";
+			};
+			name = Release;
+		};
+		04676D252122F98D0000D3F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KXTabBarTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jj.KXTabBarTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KXTabBarTest;
+			};
+			name = Debug;
+		};
+		04676D262122F98D0000D3F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KXTabBarTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jj.KXTabBarTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KXTabBarTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04676CED2122F98B0000D3F8 /* Build configuration list for PBXProject "KXTabBarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04676D1C2122F98D0000D3F8 /* Debug */,
+				04676D1D2122F98D0000D3F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04676D1E2122F98D0000D3F8 /* Build configuration list for PBXNativeTarget "KXTabBarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04676D1F2122F98D0000D3F8 /* Debug */,
+				04676D202122F98D0000D3F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04676D212122F98D0000D3F8 /* Build configuration list for PBXNativeTarget "KXTabBarTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04676D222122F98D0000D3F8 /* Debug */,
+				04676D232122F98D0000D3F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04676D242122F98D0000D3F8 /* Build configuration list for PBXNativeTarget "KXTabBarTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04676D252122F98D0000D3F8 /* Debug */,
+				04676D262122F98D0000D3F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04676CEA2122F98B0000D3F8 /* Project object */;
+}
